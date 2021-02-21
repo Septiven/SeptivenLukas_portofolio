@@ -1,0 +1,184 @@
+body{
+    background-color: #707070;
+    margin: 0px;
+}
+
+.header{
+    height: 350px;
+    background-image: url("https://dimzystore.com/wp-content/uploads/2017/06/overwatch-game-wallpaper-background-hd.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-header{
+    color: #9fb8ad;
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.nama{
+    font-size: 6mm;
+    margin: 2px;
+    padding: 10px;
+    /* border: 1px solid white;
+    border-radius: 10px; */
+}
+.option{
+    font-size: 6mm;
+    margin: 2px;
+    padding: 10px;
+    /* border: 1px solid white;
+    border-radius: 10px; */
+}
+.option-item{
+    margin: 5px;
+}
+
+.bot-header{
+    font-size: 10mm;
+    color: white;
+    margin-top: 100px;
+    /* border: 1px solid white; */
+}
+
+.picture{
+    height: 150px;
+    width: 150px;
+    border: 2px double black;
+    border-radius: 100%;
+    margin-top: -100px;
+}
+
+.body{
+    color: #222831;
+    font-size: 5mm;
+    margin: 4px;
+}
+
+.profile{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.skill{
+    /* border: 1px solid red; */
+    flex: 1;
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: column;
+}
+.introduction{
+    /* border: 1px solid blue; */
+    flex: 1;
+    padding: 60px;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    margin: 4px;
+}
+
+.social-skill{
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+}
+
+.bar{
+    /* border: 1px solid black; */
+    display: block;
+    margin: 5px;
+}
+.HTML{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #252525;
+    color: #999b84;
+    width: 80%;
+}
+.CSS{
+    /* border: 1px solid black; */
+    color: #999b84;
+    border-radius: 5px;
+    background-color: #252525;
+    width: 85%;
+}
+.JS{
+    /* border: 1px solid black; */
+    color: #999b84;
+    border-radius: 5px;
+    background-color: #252525;
+    width: 75%;
+}
+.EXCEL{
+    /* border: 1px solid black; */
+    color: #999b84;
+    border-radius: 5px;
+    background-color: #252525;
+    width: 90%;
+}
+
+.bar-type{
+    display: flex;
+    justify-content: space-between;
+}
+
+.six-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.each-box{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offer-img{
+    /* border: 1px solid black; */
+    flex: 1;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.offer-text{
+    /* border: 1px solid black; */
+    flex: 1;
+}
+
+/* get in touch */
+.get-in-touch{
+    background-color: darkgray;
+}
+
+.footer-profile{
+    color: #85603f;
+}
+
+.input{
+    background-color: #252525;
+    border-radius: 5px;
+    margin: 2px;
+    height: 20px;
+    width: 500px;
+}
+.submit{
+    background-color: orangered;
+    color: papayawhip;
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
